@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana,Geneva,sans-serif; 
+    font-family: Verdana, Geneva, sans-serif; 
     margin: 0;
     background: #1B244A;
     text-align: center;
@@ -50,6 +50,23 @@ body {
     border: 2px #9AABD8 solid;
     border-radius: 5px;
     margin: 24px 5px 5px 0px;
+}
+
+#footer { 
+    background-color: #0d1125;
+    padding: 30px;
+}
+
+#reset-btn {
+    padding: 10px 20px;
+    color: #9AABD8;
+    background-color:#3C50A8;
+    border: transparent;
+    border-radius: 5px;
+}
+
+#reset-btn:hover{
+    background-color:#4359bb;
 }
 
 #home-score-container { 

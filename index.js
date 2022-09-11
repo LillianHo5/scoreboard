@@ -41,6 +41,11 @@ function guestAddThree() {
     compareScores();
 }
 
+/**
+ * Changes background color of the home or guest scoreboard based 
+ * on whichever group has a greater number of points (#4359bb background if more, 
+ * #1B244A/standard if behind).
+ */
 function compareScores() { 
     if (currentHomeScore < currentGuestScore) { 
         guestScoreBackground.style.backgroundColor = "#4359bb";
@@ -52,4 +57,18 @@ function compareScores() {
         guestScoreBackground.style.backgroundColor = "#1B244A";
         homeScoreBackground.style.backgroundColor = "#1B244A";
     }
+}
+
+/**
+ * Reset entire site to original view by setting the home and guest scores to 0
+ * and by changing backgrounds for each scoreboard, if needed. 
+ */
+function reset() { 
+    currentHomeScore = 0; 
+    currentGuestScore = 0;
+    homeScore.textContent = currentHomeScore;
+    guestScore.textContent = currentGuestScore;
+
+    homeScoreBackground.style.backgroundColor = "#1B244A";
+    guestScoreBackground.style.backgroundColor = "#1B244A";
 }
