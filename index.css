@@ -1,0 +1,82 @@
+body {
+    font-family: Verdana,Geneva,sans-serif; 
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.header-container { 
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headers { 
+    margin-top: 68px;
+    height: 36px;
+    width: 149px;
+}
+
+.container {
+    margin-top: -25px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.score-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #080001;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    width: 150px;
+    height: 120px;
+    font-size: 90px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.btn {
+    background-color: transparent;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px #9AABD8 solid;
+    border-radius: 5px;
+    margin: 24px 5px 5px 0px;
+}
+
+#home-score-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+
+#guest-score-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+}
+
+#main-title { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0d1125;
+    color: white;
+    margin: 0;
+    padding: 40px;
+}
